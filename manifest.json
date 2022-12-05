@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Analyze Selector",
-  "description": "Selecting in Analyze",
+  "description": "Select all of none in Modo Analyze",
   "version": "1.0",
   "icons": {
     "16": "images/icon-16.png",
