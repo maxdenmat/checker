@@ -1,18 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Select Checkboxes Extension</title>
-    <style>
-      button {
-        width: 100%;
-        height: 30px;
-        margin-top: 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <button id="select-all">Select All</button>
-    <button id="select-none">Select None</button>
-    <script src="popup.js"></script>
-  </body>
+<head>
+  <style>
+    /* Style the buttons */
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      
+      /* Add rounded corners and a drop shadow */
+      border-radius: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    /* Style the "Select All" button */
+    #select-all {
+      background-color: #4CAF50;
+    }
+
+    /* Style the "Select None" button */
+    #select-none {
+      background-color: #f44336;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+
+<!-- Create the "Select All" button -->
+<button id="select-all" class="button">Select All</button>
+
+<!-- Create the "Select None" button -->
+<button id="select-none" class="button">Select None</button>
+
+</body>
 </html>
+
