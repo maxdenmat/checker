@@ -1,8 +1,8 @@
 {
   "name": "Modo Analyze Selector",
-  "version": "1.0",
+  "version": "1",
   "manifest_version": 2,
-  "description": "An extension that allows you to select or deselect all checkboxes on a webpage.",
+  "description": "An extension that allows you to select or deselect all checkboxes on a particular webpage.",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -13,8 +13,10 @@
     "default_popup": "popup.html"
   },
   "permissions": [
+  	"tabs",
   	"activeTab"
   ],
-  "host_permissions":
+  "host_permissions": [
   	"https://analyze.modolabs.net/*"
+  ]
 }
