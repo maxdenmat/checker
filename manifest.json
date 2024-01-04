@@ -1,5 +1,5 @@
 {
-  "name": "Modo Analyze Selector",
+  "name": "Checkbox Selector",
   "version": "1",
   "manifest_version": 2,
   "description": "An extension that allows you to select or deselect all checkboxes on a particular webpage.",
@@ -15,8 +15,5 @@
   "permissions": [
   	"tabs",
   	"activeTab"
-  ],
-  "host_permissions": [
-  	"https://analyze.modolabs.net/*"
   ]
 }
